@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /*background-color: aquamarine;*/
+}
+
+#main-contenet {
+    height: calc(100vh - 140px);
+    overflow: auto;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main h3 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+#footer {
+    padding-top: 60px;
+    /*height: 45px;*/
+    background-color: #343A40;
+    position: apsolute;
+}
+
+.bitStudent {
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: -40px;
+}
+  
+#show-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+.show-item {
+    width: 290px;
+}
+
+.show-item img {
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#search-dropdown {
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    border-radius: 4px;   
+    width: 300px;
+}
+
+#search-input {
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+
+p {
+    color: rgb(54, 53, 53);
+    font-size: larger;
+    font-weight: 500;
+}
